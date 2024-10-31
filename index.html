@@ -13,7 +13,7 @@
     <!-- Header Section -->
     <header>
         <h1>Wunderlust Travel</h1>
-        <img src="images/logo.png" alt="Wunderlust Travel logo">
+        <img src="logo.png" alt="Wunderlust Travel logo">
         <p>Let Wunderlust Travel help you plan the trip of your dreams!</p>
     </header>
 
@@ -37,17 +37,38 @@
 
             <!-- Responsive Images for Art Direction -->
             <picture>
-                <source srcset="majorca-waves-320w.png 320w, majorca-waves-780w.png 780w, majorca-waves-1024w.png 1024w" media="(min-width: 600px)">
+                <!-- For a min-width: 1264px -->
+                <source srcset="majorca-waves-1024w.png" media="(min-width: 1264px)">
+                <!-- For a max-width: 900px -->
+                <source srcset="majorca-waves-780w.png" media="(max-width: 900px)">
+                <!-- For a max-width: 675px -->
+                <source srcset="majorca-waves-320w.png" media="(max-width: 675px)">
+                <!-- Fallback image -->
                 <img src="majorca-waves-320w.png" alt="Waves in Majorca">
             </picture>
+            
             <picture>
-                <source srcset="majorca-beach-320w.png 320w, majorca-beach-780w.png 780w, majorca-beach-1024w.png 1024w" media="(min-width: 600px)">
+                <!-- For a min-width: 1264px -->
+                <source srcset="majorca-beach-1024w.png" media="(min-width: 1264px)">
+                <!-- For a max-width: 900px -->
+                <source srcset="majorca-beach-780w.png" media="(max-width: 900px)">
+                <!-- For a max-width: 675px -->
+                <source srcset="majorca-beach-320w.png" media="(max-width: 675px)">
+                <!-- Fallback image -->
                 <img src="majorca-beach-320w.png" alt="Beach in Majorca">
             </picture>
+            
             <picture>
-                <source srcset="majorca-cove-320w.png 320w, majorca-cove-780w.png 780w, majorca-cove-1024w.png 1024w" media="(min-width: 600px)">
+                <!-- For a min-width: 1264px -->
+                <source srcset="majorca-cove-1024w.png" media="(min-width: 1264px)">
+                <!-- For a max-width: 900px -->
+                <source srcset="majorca-cove-780w.png" media="(max-width: 900px)">
+                <!-- For a max-width: 675px -->
+                <source srcset="majorca-cove-320w.png" media="(max-width: 675px)">
+                <!-- Fallback image -->
                 <img src="majorca-cove-320w.png" alt="Cove in Majorca">
             </picture>
+            
         </section>
 
         <!-- Plan Your Trip Section -->
